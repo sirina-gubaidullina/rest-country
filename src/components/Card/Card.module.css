@@ -1,0 +1,32 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
+  height: 21rem;
+  p {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+}
+.card-img {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  max-height: 165px;
+}
+.info-card {
+  padding: 1.6rem;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

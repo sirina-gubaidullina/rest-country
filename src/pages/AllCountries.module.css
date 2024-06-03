@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 3rem 4rem;
+  padding: 1rem 2rem;
+  max-width: 30rem;
+  border-radius: 0.5rem;
+}
+input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  max-width: 20rem;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: hsl(0, 0%, 52%);
+}
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
+  margin: 0 4rem;
+  @media screen and (max-width: 1600px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    margin: 0 0.8rem;
+  }
+}
