@@ -1,9 +1,11 @@
-# rest-country
+# REST Countries
 
 Country site built with React/Redux.
 
 The website provides brief and informative profiles of each country in the world, designed for quick reference and easy browsing.
 The goal of this challenge is to integrate with the [REST Countries API](https://gitlab.com/restcountries/restcountries) to pull country data and display it.
+
+Live - https://rest-countries-api-new.web.app/
 
 <img src="./public/desktop-design.jpg" />
 <img src="./public/mobile-design.jpg" />
